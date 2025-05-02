@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineStream Theater</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">CineStream</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shows</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="theater-container">
+        <h1>🎬 Welcome to CineStream Theater 🎬</h1>
+        <div class="screen">
+            <video id="trailer" video width="640" height="360" autoplay muted loop controls>
+                <source src="animation.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="buttons">
+            <button onclick="document.getElementById('trailer').play()">▶ Play Again</button>
+            <button onclick="alert('Rate this movie: ⭐⭐⭐⭐⭐')">⭐ Rate Movie</button>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 CineStream Theater.<br> All Rights Reserved.</p>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
